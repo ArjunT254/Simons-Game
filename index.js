@@ -62,7 +62,7 @@ function checkseq(curlevel)  {
 
 }
 
-$(document).click(function() {
+$(document).keypress(function() {
   if (started === -1) {
     nextsequence();
   }
